@@ -19,8 +19,10 @@
             <p>Audition</p>
             <p>Contact</p>
         </div></div>
-    <script src="particles.js"></script>
-    <script src="particles.json"></script>
+        <div id="fond">
+            <script src="particles.js"></script>
+            <script src="particles.json"></script>
+        </div>
     </header>
     <main>
         <h3 class="titre_accueil">Pour une optique et une audition nette</h3>

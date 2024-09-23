@@ -37,6 +37,10 @@ body{
     border-width: 1px;    
     text-align: center;
 }
+#fond{
+    z-index: -1;
+    
+}
     /*Page Accueil*/
 
 .titre_accueil{
