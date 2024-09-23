@@ -20,11 +20,6 @@
             <p>Contact</p>
         </div></div>
     </header>
-    <div id="particle.js">
-        <script src="js/particles.js"></script>
-        <script src="js/app.js"></script>
-    </div>
-
     <main>
         <h3 class="titre_accueil">Pour une optique et une audition nette</h3>
     <div class="aligne">
