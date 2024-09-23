@@ -3,42 +3,65 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Boutique de bigleux">
-    <title>Site web lunette</title>
+    <meta name="description" content="Boutique de Lunette">
+    <title>Accueil</title>
     <meta name="keywords" content="Lunette, Vue, Optique, Malentendant, Oreille, Appareil auditive">
     <link rel="stylesheet" href="style.css">
 </head>
-    <body>
-        <header>
-             <h1><p class="OAC">Optique&emsp;Audition&emsp;Contact</p></h1>
-             <a href="C:\Users\ldoye\OneDrive\Bureau\HTML\TP\Optique.html"></a>
-             <h2><img class="image"src="image/Logo.png" alt="Logo" width="100" height="100"></h2>
-        </header>
-        <main>
-            <h1>Pour une optique et une audition plus nette</h1>
-            <img src="image/image1accueil.png" alt="Girl"> 
-            <p>Chez Optique et Audition Wave, votre boutique spécialisée en solutions auditives et optiques située au coeur de Paris, au 49 rue de Trévise dans le 9e arrondissement. Notre équipe de professionnels dévoués est à votre service pour vous offrir des conseils personnalisés et des produits de qualité afin d'améliorer votre confort visuel et auditif. Que vous cherchiez des lunettes tendance, des lentilles de contact, ou des aides auditives de dernière génération, nous vous accueillons avec plaisir pour répondre à tous vos besoins en matière de santé visuelle et auditive. Découvrez une expérience unique et sur mesure chez Optique et Audition Wave.</p>
-           
-            <p><h1>Optique</h1></p>
-            <img src="image/image2accueil.png" alt="Optique">
-            <p>Bienvenue dans notre espace optique, où le style rencontre la clarté.
+
+<body>
+    <header>
+        <a href="index" class="logo">
+            <img src="image/Logo.png" alt="Logo" width="70" height="70"/>
+        </a>
+        <div class="option">
+            <a class="lien" href="Optique.html" style="text-decoration: none;"><p>Optique</a></p>
+            <p>Audition</p>
+            <p>Contact</p>
+        </div></div>
+    </header>
+    <div id="particle.js">
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+    </div>
+
+    <main>
+        <h3 class="titre_accueil">Pour une optique et une audition nette</h3>
+    <div class="aligne">
+        <div class="texte1">
+        <img src="image/image1accueil.png" alt="Girl" width="700" height="575"> 
+        <p class="texte1_accueil">
+            Chez Opique et Audition Wave, votre boutique spécialisée en solutions auditives et optiques située au coeur de Paris, au 49 rue de Trévise dans le te arrondissement. Notre équipe de permets dévoués est à votre service pour vous offrir des conseils personnalisés et des produits de qualité afin d'améliorer votre confort visuel et suciti. Que vous cherchiez cestu vetes tendance, ces lentilles de contact, ou des aides auditives de dernière génération, mallons avec plaisir pour sépare à un La mère de santé visuelle et auditive. Déwit une expérience unique et sur mesure chez Optique et
+           </p></div>
+
+        <div class="texte_gauche">
+        <img src="image/image2accueil.png" alt="Optique" width="900" height="775">
+        <p class="texte2_accueilg">
+            <div>
+            <h4>Optique</h4>
+            Bienvenue dans notre espace optique, où le style rencontre la clarté.<br>
             Avec l'assistance experte de notre Opticien-conseil Wave Optique plongez dans une sélection
-            soigneusement choisie de montures tendance, de verres de haute qualité et de lentilles adaptées a votre style de vie.</p>
-            <a href=""><p>En savoir plus</a></p>
+            soigneusement choisie de montures tendance, de verres de haute qualité et de lentilles adaptées a votre style de vie.<br><br>
+            <div class="savoir_plus">En savoir plus</p>
+            </div></div>
+    </div>
 
-            <p><h1>Audition</p></h1>
-            <img src="image/image3accueil.png" alt="Audition">
-            <p>Soyez les bienvenus dans notre espace Audition, où la qualité du son se marie à une expertise personnalisée. Avec l'accompagnement attentif de notre
-                Audioprothésiste,
-                explorez un</p>
-            <a href=""><p>En savoir plus</a></p>
-
-
-
-
-        </main>
-    </body>
-    
-    
-    
-    </html>
+        <div class="texte1">
+        <img src="image/image3accueil.png" alt="Audition" width="550" height="550">
+        <p class="texte3"> 
+            <div>
+            <h5>Audition</h5>
+            Soyez les bienvenus dans notre espace Audition, où la qualité du son se marie à une expertise personnalisée. Avec l'accompagnement attentif de notre<br>
+            Audioprothésiste,
+            explorez un<br><br>
+            <div class="savoir_plus">En savoir plus</p>
+            </div></div>
+    </main>
+    <footer>
+        <div class="photo_container">
+        <img src="image/Insta.png" class="photo_fin" alt="Instagram" width="30" height="30">
+        <img src="image/Linkedin.jpg" class="photo_fin" alt="Linkedin" width="30" height="30">
+        <img src="image/Mail.png" class="photo_fin" alt="Mail" width="930" height="30">
+    </div>
+    </footer>
+</body>

@@ -1,21 +1,73 @@
-header{
+header {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    font-size: smaller;
+    align-items: center;
     background-color:rgb(84, 134, 132);
+    padding: 10px 15px;
+    color: white;
+    justify-content: space-between;
+}
+.option{
+    display: flex;
+    gap: 200px;
+    font-weight: bold;
+    font-size: larger;
+    }
+.lien{
+    color: white;
+}
+.option a:hover{
+    font-size: 1.3em;
 }
 body{
     background-color: whitesmoke;
     margin: 15px;
 }
-.OAC{
-    font-size: larger;
-    flex-direction: row;
-    color: white;
-    margin: 1em;
+.photo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px; 
 }
+.photo_fin{
+    width: 100px;
+    height: auto;
+}
+.savoir_plus{
+    width: 150px;    
+    border: solid;    
+    border-color: black;   
+    border-radius: 30px;    
+    border-width: 1px;    
+    text-align: center;
+}
+    /*Page Accueil*/
 
+.titre_accueil{
+    font-family: 'Georgia', serif;
+    text-align: left;
+    color: #333333;
+}
+.texte1_accueil{
+    color: gray;
+    margin: 50px;
+    width: 700px;
+    line-height: 2;
+}
+.texte2_accueil{
+    color: gray;
+    margin: 30px;
+    width: 700px;
+    line-height: 2;
+}
+h4{
+    color: black;
+    font-size: 60px;
+}
+h5{
+    color: black;
+    font-size: 50px;
+}
 /*Page Optique*/
 
 .aligne{/*alignement texte et image*/
