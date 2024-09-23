@@ -19,6 +19,8 @@
             <p>Audition</p>
             <p>Contact</p>
         </div></div>
+    <script src="particles.js"></script>
+    <script src="particles.json"></script>
     </header>
     <main>
         <h3 class="titre_accueil">Pour une optique et une audition nette</h3>
@@ -56,7 +58,7 @@
         <div class="photo_container">
         <img src="image/Insta.png" class="photo_fin" alt="Instagram" width="30" height="30">
         <img src="image/Linkedin.jpg" class="photo_fin" alt="Linkedin" width="30" height="30">
-        <img src="image/Mail.png" class="photo_fin" alt="Mail" width="930" height="30">
+        <img src="image/Mail.png" class="photo_fin" alt="Mail" width="50" height="50">
     </div>
     </footer>
 </body>
