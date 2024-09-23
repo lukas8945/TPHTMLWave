@@ -29,10 +29,6 @@ body{
     gap: 20px;
     padding: 20px; 
 }
-.photo_fin{
-    width: 100px;
-    height: auto;
-}
 .savoir_plus{
     width: 150px;    
     border: solid;    
